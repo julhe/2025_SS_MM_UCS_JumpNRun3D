@@ -28,6 +28,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 182edf807c448f944bc35c0a1258bce2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_b000cee5f6b2439484c7cf3030064e36_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 182edf807c448f944bc35c0a1258bce2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_e4ebdd7ae741454cb039100a8dc559cd_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 182edf807c448f944bc35c0a1258bce2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d03c8bd8abd9427fb3459451cd19bef7_Texture_1_Texture2D:
         m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
@@ -38,6 +46,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _WaterNormalMap:
         m_Texture: {fileID: 2800000, guid: 9fcdd6293326f6242877439584521614, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Water_Height_Map:
+        m_Texture: {fileID: 2800000, guid: 182edf807c448f944bc35c0a1258bce2, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,18 +67,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _BaseColorAbsorbation: 250.78
+    - _Displacement_Strength: 1.58
     - _FogFactor: -0.29
     - _Fresnel: 1
-    - _Normal_Strength: 0.16
+    - _Normal_Strength: 0.08
     - _QueueControl: 1
     - _QueueOffset: 0
-    - _Refraction_Strength: 0.03
+    - _Refraction_Strength: 2.62
     - _Shore_Begin: 0.75
     - _Shore_End: 0.62
-    - _Water_Speed: 0.005
+    - _Water_Speed: 0.01
     m_Colors:
     - _BaseColor: {r: 0.14002603, g: 0.1734899, b: 0.25157225, a: 0}
     - _Final_Color_Tint: {r: 0.55345905, g: 0.55345905, b: 0.55345905, a: 0}
+    - _Test: {r: 0, g: 0, b: 0, a: 0}
     - _Water_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
